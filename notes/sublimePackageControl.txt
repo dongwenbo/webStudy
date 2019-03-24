@@ -1,0 +1,13 @@
+解决 工具sublime text3 Package Control 的 “There are no packages available for installation ” 问题。
+
+
+网址：https://www.jianshu.com/p/23d1ec6988e5 
+     https://www.jianshu.com/p/d059f5f1fe86
+
+
+打开Sublime Text，点击Sublime Text->Preferences->Settings - User，添加如下代码：
+"channels":
+ [
+    "http://cst.stu.126.net/u/json/cms/channel_v3.json",
+ ],
+
