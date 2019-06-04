@@ -1,0 +1,8 @@
+vertical-align:base-line top textTop middle textBottom bottom sub super 
+垂直居中：1、直接设置与父元素高度相同的line-height
+         2、父元素：display：table ,元素：display：table-cell;
+text-transform：
+text-decoration:
+
+text-align:只对块级元素有作用
+veritcal-align：只对行内元素有作用
