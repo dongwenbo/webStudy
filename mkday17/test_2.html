@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+		/*此处写代码*/
+		*{
+		margin:0;
+		padding:0;
+		}
+		.container{
+			overflow: scroll;
+			background: #fff;
+		}
+		.nav {
+		width: 100%;
+		height: 80px;
+		background: black;
+		position: fixed;
+		top: 0;
+		}
+		.logo{
+		float:  left;
+		width: 240px;
+		height: 64px;
+		margin: 8px 10px;
+		background: url(http://climg.mukewang.com/58c0d2d900016ce303000100.png) no-repeat;
+		background-size: 100% 100%;
+		cursor: pointer;
+		}
+		.nav_items{
+		float: right;
+		right: 20px;
+		}
+		.nav_items li{
+		list-style: none;
+		text-align: center;
+		height: 80px;
+		line-height: 80px;
+		color: #fff;
+		font-family: '微软雅黑';
+		font-size: 20px;
+		float: left;
+		cursor: pointer;
+		margin: 0 20px;
+		padding: 0 15px;
+		}
+		.clearfix:after{
+			content: '.';
+			height: 0;
+			display: block;
+			visibility: hidden;
+			clear: both;
+		}
+		.clearfix{
+			zoom: 1;
+		}
+		.main{
+			background: rgb(158,207,233);
+			width: 100%;
+			margin: 80px 0;
+		}
+		.main_left, .main_middle, .main_right{
+			padding-top: 10%; 
+			padding-left: 5%;
+			width: 27%;
+			float: left;
+			height: 600px;
+		}
+		.main_right{
+			border-left: 3px orange solid;
+		}
+		.main_left h3, .main_middle h3, .main_right h3{
+			font-size: 25px;
+			font-family: "微软雅黑";
+			font-weight: bold;
+			margin: 10px 0;
+		}
+		.main_left ul li, .main_middle ul li{
+			list-style: none;
+			font-size: 15px;
+			font-family: "微软雅黑";
+			margin-bottom: 8px;
+		}
+		.main_left ul li span{
+			background: pink;
+			margin-right: 10px;
+		}
+		.main_right form input{
+			height: 40px;
+			width: 300px;
+			margin-bottom: 10px;
+			font-family: "微软雅黑";
+			font-size: 13px;
+			text-indent: 1em;
+			border: none;
+		}
+		.main_right form input:nth-child(3){
+			background: red;
+			color: white;
+			font-size: 18px;
+		}
+		.footer{
+			width: 100%;
+			position: fixed;
+			bottom: 0;
+			background: black;
+			text-align: center;
+		}
+		.footer_items{
+			overflow: hidden;
+			zoom:1;
+			display: inline-block;
+		}
+		.footer_items li{
+			list-style: none;
+			height: 80px;
+			line-height: 80px;
+			padding: 0 15px;
+			margin: 0 20px;
+			float: left;
+		}
+		.footer_items li a{
+			text-decoration: none;
+			color: #fff;
+			font-family: '微软雅黑';
+			font-size: 16px;
+		}
+		</style>
+	</head>
+	<body>
+		<!-- 此处写代码 -->
+		<div class="container">
+			<div class="nav">
+				<div class="logo"></div>
+				<ul class="nav_items">
+					<li>课程</li>
+					<li>职业路径</li>
+					<li>实战</li>
+					<li>猿问</li>
+					<li>手记</li>
+				</ul>
+			</div>
+			<div class="main clearfix">
+				<div class="main_left">
+					<h3>课程推荐</h3>
+					<ul>
+						<li>
+							<span>职业路径</span>
+							HTML5与CSS实现动态网页
+						</li>
+						<li>
+							<span>职业路径</span>
+							HTML5与CSS实现动态网页
+						</li>
+						<li>
+							<span>职业路径</span>
+							HTML5与CSS实现动态网页
+						</li>
+						<li>
+							<span>职业路径</span>
+							HTML5与CSS实现动态网页
+						</li>
+						<li>
+							<span>职业路径</span>
+							HTML5与CSS实现动态网页
+						</li>
+						<li>
+							<span>职业路径</span>
+							HTML5与CSS实现动态网页
+						</li>
+					</ul>
+				</div>
+				<div class="main_right">
+					<h3>登录</h3>
+					<form>
+						<input type="text" name="username" placeholder="请输入登录邮箱\手机号">
+						<input type="text" name="password" placeholder="6-16位密码，区分大小写，不能用空格">
+						<input type="button" name="login" value="登录">
+					</form>
+				</div>
+			</div>
+			<div class="footer">
+				<ul class="footer_items">
+					<li><a href="#">网站合作</a></li>
+					<li><a href="#">企业合作</a></li>
+					<li><a href="#">人才招聘</a></li>
+					<li><a href="#">联系我们</a></li>
+					<li><a href="#">常见问题</a></li>
+					<li><a href="#">友情链接</a></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

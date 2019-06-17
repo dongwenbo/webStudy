@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+		/*此处写代码*/
+		*{
+		margin:0;
+		padding:0;
+		}
+		.container{
+			overflow: scroll;
+			background: #fff;
+		}
+		.nav {
+		width: 100%;
+		height: 80px;
+		background: black;
+		position: fixed;
+		top: 0;
+		}
+		.logo{
+		float:  left;
+		width: 240px;
+		height: 64px;
+		margin: 8px 10px;
+		background: url(http://climg.mukewang.com/58c0d2d900016ce303000100.png) no-repeat;
+		background-size: 100% 100%;
+		cursor: pointer;
+		}
+		.nav_items{
+		float: right;
+		right: 20px;
+		}
+		.nav_items li{
+		list-style: none;
+		text-align: center;
+		height: 80px;
+		line-height: 80px;
+		color: #fff;
+		font-family: '微软雅黑';
+		font-size: 20px;
+		float: left;
+		cursor: pointer;
+		margin: 0 20px;
+		padding: 0 15px;
+		}
+		.main{
+			background: rgb(158,207,233);
+			width: 100%;
+			zoom:1;
+			margin: 80px 0;
+			height: 800px;
+		}
+		.main:after{
+			content: '.';
+			height: 0;
+			display: block;
+			visibility: hidden;
+			clear: both;
+		}
+		.main_left{
+			padding-left: 8%;
+			padding-top: 12%; 
+			width: 42%;
+			float: left;
+		}
+		.main_right{
+			padding-left: 8%;
+			padding-top: 12%; 
+			width: 42%;
+			float: right;
+		}
+		.main_left h3, .main_right h3{
+			font-size: 25px;
+			font-family: "微软雅黑";
+			font-weight: bold;
+			margin: 10px 0;
+		}
+		.main_left ul li, .main_right ul li{
+			list-style: none;
+			font-size: 15px;
+			font-family: "微软雅黑";
+			margin-bottom: 8px;
+		}
+		.main_left ul li span{
+			background: pink;
+			margin-right: 10px;
+		}
+		.footer{
+			width: 100%;
+			position: fixed;
+			bottom: 0;
+			background: black;
+			text-align: center;
+		}
+		.footer_items{
+			overflow: hidden;
+			zoom:1;
+			display: inline-block;
+		}
+		/*.footer_items:after{
+			content: '.';
+			height: 0;
+			display: block;
+			visibility: hidden;
+			clear: both;
+		}*/
+		.footer_items li{
+			list-style: none;
+			height: 80px;
+			line-height: 80px;
+			padding: 0 15px;
+			margin: 0 20px;
+			float: left;
+		}
+		.footer_items li a{
+			text-decoration: none;
+			color: #fff;
+			font-family: '微软雅黑';
+			font-size: 16px;
+		}
+		</style>
+	</head>
+	<body>
+		<!-- 此处写代码 -->
+		<div class="container">
+			<div class="nav">
+				<div class="logo"></div>
+				<ul class="nav_items">
+					<li>课程</li>
+					<li>职业路径</li>
+					<li>实战</li>
+					<li>猿问</li>
+					<li>手记</li>
+				</ul>
+			</div>
+			<div class="main">
+				<div class="main_left">
+					<h3>课程推荐</h3>
+					<ul>
+						<li>
+							<span>职业路径</span>
+							HTML5与CSS实现动态网页
+						</li>
+						<li>
+							<span>职业路径</span>
+							HTML5与CSS实现动态网页
+						</li>
+						<li>
+							<span>职业路径</span>
+							HTML5与CSS实现动态网页
+						</li>
+						<li>
+							<span>职业路径</span>
+							HTML5与CSS实现动态网页
+						</li>
+						<li>
+							<span>职业路径</span>
+							HTML5与CSS实现动态网页
+						</li>
+						<li>
+							<span>职业路径</span>
+							HTML5与CSS实现动态网页
+						</li>
+					</ul>
+				</div>
+				<div class="main_right">
+					<h3>相关课程</h3>
+					<ul>
+						<li>
+							HTML&nbsp;CSS&nbsp;JaveScript
+						</li>
+						<li>
+							HTML&nbsp;CSS&nbsp;JaveScript
+						</li>
+						<li>
+							HTML&nbsp;CSS&nbsp;JaveScript
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer">
+				<ul class="footer_items">
+					<li><a href="#">网站合作</a></li>
+					<li><a href="#">企业合作</a></li>
+					<li><a href="#">人才招聘</a></li>
+					<li><a href="#">联系我们</a></li>
+					<li><a href="#">常见问题</a></li>
+					<li><a href="#">友情链接</a></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
