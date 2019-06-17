@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>测试</title>
+	<style type="text/css">
+	.news {
+	    background-color: gray;
+ 		border: solid 1px black;
+/* 		overflow: hidden;
+ 		zoom:1;*/
+ 	 }
+
+	.news img {
+ 	    float: left;
+ 	 }
+
+	.news p {
+  		float: right;
+     }
+     .clearfix:after{
+     	content: ".";
+     	height: 0;
+     	visibility: hidden;
+     	display: block;
+     	clear: both;
+     }
+     .clearfix{
+     	zoom:1;
+     }
+	</style>
+</head>
+<body>
+	<div class="news clearfix">
+		<img src="dog.jpg" />
+		<p>some text</p>
+	</div>
+</body>
+</html>

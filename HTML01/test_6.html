@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>双飞翼布局</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			min-width: 250px;
+		}
+		.container, .leftside, .rightside{
+			float: left;
+			min-height: 200px;
+		}
+		.container{
+			width: 100%
+		}
+		.main{
+			margin-left: 200px;
+			margin-right: 150px;
+			background: orange;
+			min-height: 200px;
+		}
+		.leftside{
+			width: 200px;
+			background: green;
+			margin-left: -100%;
+		}	
+		.rightside{
+			width: 150px;
+			background: red;
+			margin-left: -150px;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="main"></div>
+	</div>
+	<div class="leftside"></div>
+	<div class="rightside"></div>
+	<!-- 圣杯布局和双飞翼布局的区别主要在container内容区域的大小导致左右模块的位置变化 -->
+</body>
+</html>
