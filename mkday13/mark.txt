@@ -1,0 +1,18 @@
+background-color
+背景包括内容、内边距、边框，不包括外边距
+边框默认颜色与元素中文字颜色相同
+background-image
+元素背景图片包括内容、内边距、边框，不包括外边距
+background-repeat
+默认值：repeat， no-repeat, repeat-x, repeat-y
+background-attachment
+默认值：scroll, fixed
+background-position
+list-style-type
+none, 
+list-style-image
+url
+list-style-position
+inside outside
+list-style 
+顺序不固定
