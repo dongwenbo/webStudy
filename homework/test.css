@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	min-height: 1100px;
+	font-family: ' Microsoft YaHei UI';
+}
+.header{
+	width: 100%;
+	background: #07cbc9;
+	overflow: hidden;
+	zoom: 1;
+	position: fixed;
+	top: 0;
+}
+.header .logo{
+	width: 260px;
+	height: 48px;
+	float: left;
+	margin: 16px 0 16px 155px;
+	background: url(images/logo.png);
+	cursor: pointer;
+}
+.header ul{
+	float: right;
+	margin-right: 100px;
+}
+.header ul li{
+	float: left;
+	list-style: none;
+	height: 80px;
+	line-height: 80px;
+	padding: 0 10px;
+}
+.header ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bolder;
+}
+.header ul li a:hover{
+	color: #ececec;
+}
+.main{
+	width: 100%;
+}
+.main .banner{
+	position: relative;
+	top: 80px;
+}
+.main .banner .pic{
+	background: url(images/banner3.jpg);
+	background-size: 100% 100%;
+	height: 600px;
+}
+.main .banner .topLayer{
+	background: #000;
+	opacity: 0.2;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 600px;
+	z-index: 1;
+}
+.main .banner .formInfo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 600px;
+	z-index: 2;
+	text-align: center;
+	display: table; 
+}
+.main .banner .formInfo form{
+	display: table-cell;
+	vertical-align: middle;
+}
+.main .banner .formInfo form input, textarea{
+	width: 509px;
+	border: 2px rgb(110, 110, 110) solid;
+	margin-bottom: 16px;
+	font-size: 13px;
+	background: transparent;
+	text-indent: 1em;
+	color: #fff;
+}
+.main .banner .formInfo form input:hover, textarea:hover{
+	border-color: #07cbc9;
+}
+.main .banner .formInfo form input{
+	height: 39px;
+}
+.main .banner .formInfo form textarea{
+	height: 115px;
+	padding-top: 12px;
+}
+.main .banner .formInfo form button{
+	height: 39px;
+	width: 123px;
+	border: 2px rgb(110, 110, 110) solid;
+	background: transparent;
+	color: rgb(133, 148, 159);
+}
+.main .banner .formInfo form button:hover{
+	border: none;
+	background: #07cbc9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
