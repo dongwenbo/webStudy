@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 1100px;
+    font-family: ' Microsoft YaHei UI';
+}
+
+.header {
+    width: 100%;
+    background: #07cbc9;
+    overflow: hidden;
+    zoom: 1;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    min-width: 1100px;
+}
+
+.logo {
+    width: 200px;
+    height: 36px;
+    float: left;
+    margin: 22px 0 22px 155px;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.header ul {
+    float: right;
+    margin-right: 100px;
+}
+
+.header ul li {
+    float: left;
+    list-style: none;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 10px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.header ul li a:hover {
+    color: #ececec;
+}
+
+.main {
+    width: 100%;
+    margin: 80px 0 100px 0;
+}
+
+/*banner*/
+.banner {
+    position: relative;
+}
+
+.pic {
+    background: url(../images/banner3.jpg);
+    background-size: 100% 100%;
+    height: 600px;
+}
+
+.topLayer {
+    background: #000;
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    z-index: 1;
+}
+
+.formInfo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    z-index: 2;
+    text-align: center;
+    display: table;
+}
+
+.formInfo form {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.formInfo form input,
+.formInfo form textarea {
+    width: 509px;
+    border: 2px rgb(110, 110, 110) solid;
+    margin-bottom: 16px;
+    font-size: 13px;
+    background: transparent;
+    text-indent: 1em;
+    color: #fff;
+}
+
+.formInfo form input:hover,
+.formInfo form textarea:hover {
+    border-color: #07cbc9;
+}
+
+.formInfo form input {
+    height: 39px;
+}
+
+.formInfo form textarea {
+    height: 115px;
+    padding-top: 12px;
+}
+
+.formInfo form button {
+    height: 39px;
+    width: 123px;
+    border: 2px rgb(110, 110, 110) solid;
+    background: transparent;
+    color: rgb(133, 148, 159);
+}
+
+.formInfo form button:hover {
+    border: none;
+    background: #07cbc9;
+}
+
+/*about*/
+.titleItem {
+    padding: 35px 0 15px 0;
+    text-align: center;
+}
+
+.titleItem h2 {
+    font-size: 35px;
+    font-weight: bolder;
+    color: #000;
+}
+
+.line {
+    background: #07cbc9;
+    height: 2px;
+    width: 30px;
+    margin: 12px auto;
+}
+
+.titleItem p {
+    width: 400px;
+    margin: 0 auto;
+    color: #95959e;
+    font-size: 12px;
+    line-height: 1.8em;
+}
+
+.aboutDesc {
+    text-align: center;
+}
+
+.aboutDescContent {
+    display: inline-block;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.aboutDescLeft,
+.aboutDescCenter,
+.aboutDescRight {
+    float: left;
+    height: 380px;
+}
+
+.aboutDescLeft {
+    width: 170px;
+    position: relative;
+}
+
+.aboutDescLeft h6 {
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.aboutDescLeft div {
+    background: transparent;
+    width: 260px;
+    height: 140px;
+    position: absolute;
+    top: 80px;
+    z-index: 8;
+    border: 1px rgb(218, 218, 218) solid;
+    padding: 15px;
+}
+
+.aboutDescLeft .aboutDescLeftTopLayer {
+    background: #fff;
+    opacity: 0.5;
+    z-index: 7;
+}
+
+.aboutDescLeft div p {
+    text-align: left;
+    color: #000;
+    font-size: 13px;
+}
+
+.exploreButton {
+    background: #000;
+    color: #fff;
+    width: 102px;
+    height: 40px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.exploreButton:hover {
+    background: transparent;
+    border: 1px #000 solid;
+}
+
+.aboutDescCenter {
+    background: url(../images/bb3.jpg);
+    width: 568px;
+}
+
+.aboutDescRight {
+    text-align: center;
+    padding-left: 25px;
+}
+
+.aboutDescItem {
+    width: 180px;
+    border: 1px #07cbc9 solid;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.aboutDescItemVlaue {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.aboutDescItemName {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.aboutBuliding {
+    margin-top: 60px;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.aboutBulidingPic,
+.aboutBulidingDescItem {
+    float: left;
+    width: 25%;
+    height: 400px;
+}
+
+.aboutBulidingDescItem {
+    background: #07cbc9;
+    color: #fff;
+    position: relative;
+    z-index: 5;
+}
+
+.aboutBulidingDescItem div {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+
+.aboutBulidingName {
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.aboutBulidingShortDesc {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.aboutBulidingDeatilDesc {
+    font-size: 12px;
+    color: #ececec;
+}
+
+.aboutBulidingDescItem button {
+    display: block;
+    width: 90px;
+    height: 35px;
+    border: none;
+    margin: 30px auto 0;
+    font-size: 13px;
+}
+
+.aboutBulidingPic img {
+    width: 100%;
+    height: 100%;
+}
+
+.aboutBulidingDescItem .leftTriangle {
+    width: 0;
+    height: 0;
+    border-width: 15px 15px 15px 0;
+    border-color: transparent #07cbc9 transparent transparent;
+    border-style: solid;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    margin-left: -15px;
+}
+
+.aboutBulidingDescItem .rightTriangle {
+    width: 0;
+    height: 0;
+    border-width: 15px 0 15px 15px;
+    border-color: transparent transparent transparent #07cbc9;
+    border-style: solid;
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    margin-left: 100%;
+    float: right;
+}
+
+/*gallery*/
+.galleryItems {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.galleryItem {
+    float: left;
+    width: 300px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.fristGalleryItem {
+    margin-left: 0;
+}
+
+.galleryItemPic {
+    height: 200px;
+}
+
+.galleryItems img {
+    width: 100%;
+    height: 100%;
+}
+
+.galleryItemName {
+    height: 40px;
+    background: #000;
+    color: #fff;
+    font-size: 13px;
+    padding: 8px;
+    line-height: 40px;
+}
+
+/*footer*/
+.footer {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background: #07cbc9;
+    z-index: 10;
+    min-width: 1100px;
+}
+
+.footer div {
+    height: 80px;
+    line-height: 80px;
+    font-size: 12px;
+    color: white;
+}
