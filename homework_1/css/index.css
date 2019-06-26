@@ -1,0 +1,63 @@
+/* All Tag */
+*{
+	margin: 0;
+	padding: 0;
+}
+table{
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+/*table*/
+body > table{
+	width: 100%;
+}
+/* thead ,tfoot*/
+thead > tr, tfoot > tr {
+	background: rgb(25,135,203);
+}
+thead > tr > td, tfoot > tr > td{
+	height: 60px;
+}
+/* tbody*/
+tbody > tr > td > table{
+	width: 100%;
+}
+tbody table, tbody td, tbody th{
+	 border: 1px #ccc solid;
+}
+/*tbody 左侧*/
+.aside{
+	width: 12%;
+}
+.aside > p{
+	margin-top: 12px;
+	margin-left: 12px;
+}
+.aside > p > a{
+	text-decoration: none;
+	font-size: 15px;
+	color: #3d4047;
+}
+.aside > p > a.active{
+	color: black;
+	font-weight: bold;
+}
+/*tbody 右侧*/
+.content{
+	width: 88%;
+}
+.content > table:nth-child(1) tr td, .content > table:nth-child(2) tr td{
+	height: 50px;
+	font-size: 15px;
+	padding-left: 12px;
+}
+.content > table:nth-child(3) tr td, .content > table:nth-child(3) tr th{
+	text-align: center;
+	height: 54px;
+	font-size: 14px;
+	font-weight: normal;
+}
+.content > table:nth-child(3) tr td img{
+	height: 50px;
+	width: 50px;
+}
