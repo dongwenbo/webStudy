@@ -119,8 +119,14 @@ body{
 	to {left: -10%;}
 }
 @keyframes cloud5 {
-	from {left: 110%;}
-	to {left: -30%;}
+	from {
+		left: 110%;
+		opacity: 0.8;
+	}
+	to {
+		left: -30%;
+		opacity: 0.5;
+	}
 }
 /*草地*/
 .grass {
